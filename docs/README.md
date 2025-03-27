@@ -19,8 +19,12 @@ The repository is organized to facilitate easy navigation and understanding:
   - `dff.v`: D Flip-Flop module for data synchronization.
   - `full_adder.v` and `half_adder.v`: Fundamental building blocks for constructing adder circuits.
 
-- **Testbench** (`tb/`):
-  - `FIR_Top_tb.v`: Testbench module for simulating and verifying the functionality of the FIR filter.
+- **Testbenches** (`tb/`):
+  - `Braun_Multiplier_tb.v`: Testbench for simulating and verifying the functionality of the Braun multiplier module.
+  - `RCA_16bit_tb.v`: Testbench for simulating and verifying the functionality of the 16-bit Ripple Carry Adder module.
+  - `dff_tb.v`: Testbench for simulating and verifying the functionality of the D Flip-Flop module.
+  - `full_adder_tb.v`: Testbench for simulating and verifying the functionality of the full adder module.
+  - `half_adder_tb.v`: Testbench for simulating and verifying the functionality of the half adder module.
 
 - **Documentation and Reports** (`docs/`):
   - `3-Tap_FIR_Filter_Report.pdf`: Comprehensive report detailing the design, implementation, simulation results, and performance analysis of the FIR filter.
