@@ -1,6 +1,6 @@
 # 3-Tap FIR Filter Implementation in Verilog
 
-This repository presents a Verilog implementation of a 3-Tap Finite Impulse Response (FIR) filter, collaboratively developed by [Eswar Adithya](https://github.com/EswarAdithya011) and [Sarath Kumar Suda](https://github.com/SudaSarath66). Designed for deployment on the Nexys 4 FPGA (xc7a100tcsg324-1), the project is synthesized using Xilinx Vivado and is optimized for high-speed, low-power digital signal processing applications, including audio processing and wireless communication.
+This repository presents a Verilog implementation of a 3-Tap Finite Impulse Response (FIR) filter, collaboratively developed by [Korrapolu Eswar Adithya](https://github.com/EswarAdithya011) and [Sarath Kumar Suda](https://github.com/SudaSarath66). Designed for deployment on the Nexys 4 FPGA (xc7a100tcsg324-1), the project is synthesized using Xilinx Vivado and is optimized for high-speed, low-power digital signal processing applications, including audio processing and wireless communication.
 
 ## Project Overview
 
