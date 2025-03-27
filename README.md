@@ -22,9 +22,6 @@ The repository is organized to facilitate easy navigation and understanding:
 - **Testbench** (`tb/`):
   - `FIR_Top_tb.v`: Testbench module for simulating and verifying the functionality of the FIR filter.
 
-- **Constraints** (`constraints/`):
-  - `Nexys4_Master.xdc`: Constraint file specifying pin assignments and timing constraints for the Nexys 4 FPGA.
-
 - **Documentation and Reports** (`docs/`):
   - `3-Tap_FIR_Filter_Report.pdf`: Comprehensive report detailing the design, implementation, simulation results, and performance analysis of the FIR filter.
   - `README.md`: This file, providing an overview and guidance for the project.
@@ -55,24 +52,11 @@ To replicate or utilize this project, follow these steps:
    - Ensure that Xilinx Vivado Design Suite is installed on your system.
    - Launch Vivado and create a new project.
    - Specify the project name and location, ensuring it matches the directory of the cloned repository.
-   - Select the appropriate FPGA part number: `xc7a100tcsg324-1` (corresponding to the Nexys 4 FPGA).
 
-3. **Add Source and Constraint Files**:
+3. **Add Source Files**:
    - In the Vivado project, add the Verilog source files located in the `src/` directory.
-   - Include the constraint file from the `constraints/` directory to define pin assignments and timing constraints.
-
-4. **Synthesize and Implement the Design**:
-   - Run the synthesis process to generate the design netlist.
-   - Proceed with the implementation phase to map the design onto the FPGA architecture.
-   - After successful implementation, generate the bitstream file required for programming the FPGA.
-
-5. **Program the FPGA**:
-   - Connect the Nexys 4 FPGA board to your computer via USB.
-   - Power on the FPGA board.
-   - In Vivado, open the Hardware Manager and establish a connection to the FPGA board.
-   - Program the FPGA with the generated bitstream file.
-
-6. **Verify Functionality**:
+     
+4. **Verify Functionality**:
    - Apply test signals to the FPGA and observe the output to verify the filter's performance.
    - Utilize the provided testbench (`FIR_Top_tb.v`) to simulate the design and compare the results with expected outcomes.
 
